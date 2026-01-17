@@ -1,5 +1,5 @@
 {
-  "name": "manual-container",
+  "name": "ubuntu-manual",
   "build": {
     "dockerfile": "Dockerfile"
   },

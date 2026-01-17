@@ -1,0 +1,496 @@
+[7609 ms] Dev Containers 0.437.0 over Remote - SSH 0.122.0 in VS Code 1.108.1 (585eba7c0c34fd6b30faac7c62a42050bfbc0086).
+[7608 ms] Start: Resolving Remote
+[7615 ms] Start: Loading environment from ExecServer
+[7618 ms] Host OS: linux 6.17.12-300.fc43.x86_64
+[7618 ms] Host CWD: /home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer
+[7618 ms] Start: Run: /bin/sh 
+[7623 ms] Start: Run in host: echo ~
+[7668 ms] /home/brutef0rce
+[7669 ms] 
+[7669 ms] Start: Run in host: id -un
+[7712 ms] brutef0rce
+[7712 ms] 
+[7712 ms] Start: Run in host:  (command -v getent >/dev/null 2>&1 && getent passwd 'brutef0rce' || grep -E '^brutef0rce|^[^:]*:[^:]*:brutef0rce:' /etc/passwd || true)
+[7756 ms] userEnvProbe: loginInteractiveShell (default)
+[7756 ms] userEnvProbe: not found in cache
+[7756 ms] userEnvProbe shell: /bin/bash
+[7811 ms] userEnvProbe PATHs:
+Probe:     '/home/brutef0rce/.local/bin:/home/brutef0rce/bin:/usr/local/bin:/usr/bin'
+Container: None
+[7815 ms] Setting up container for folder or workspace: /home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer
+[7815 ms] Host authority: ssh-remote+192.168.28.40
+[7815 ms] Host: unix:///run/user/1000/podman/podman.sock
+[7816 ms] Start: Run: wsl -l -v
+[7882 ms] Start: Run: wsl -d Debian -e /bin/sh -c echo ~
+[13108 ms] Start: Run: wsl -d Debian -e /bin/sh -c cd '/home/brutef0rce' && /bin/sh
+[13113 ms] Start: Run in host: id -un
+[13183 ms] brutef0rce
+[13184 ms] 
+[13184 ms] Start: Run in host:  (command -v getent >/dev/null 2>&1 && getent passwd 'brutef0rce' || grep -E '^brutef0rce|^[^:]*:[^:]*:brutef0rce:' /etc/passwd || true)
+[13188 ms] Start: Run in host: echo ~
+[13189 ms] /home/brutef0rce
+[13190 ms] 
+[13190 ms] Start: Run in host: test -f '/home/brutef0rce/.vscode-server/cli/servers/Stable-585eba7c0c34fd6b30faac7c62a42050bfbc0086/server/node'
+[13192 ms] 
+[13192 ms] 
+[13192 ms] Exit code 1
+[13192 ms] Start: Run in host: test -f '/home/brutef0rce/.vscode/cli/servers/Stable-585eba7c0c34fd6b30faac7c62a42050bfbc0086/server/node'
+[13194 ms] 
+[13194 ms] 
+[13194 ms] Exit code 1
+[13195 ms] Start: Run in host: test -f '/home/brutef0rce/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node'
+[13196 ms] 
+[13196 ms] 
+[13196 ms] Exit code 1
+[13196 ms] Start: Run in host: test -f '/home/brutef0rce/.vscode-remote-containers/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node'
+[13198 ms] 
+[13199 ms] 
+[13199 ms] Exit code 1
+[13199 ms] Start: Run in host: uname -s
+[13202 ms] Linux
+[13202 ms] 
+[13202 ms] Start: Run in host: uname -m
+[13205 ms] x86_64
+[13205 ms] 
+[13205 ms] Start: Run in host: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[13209 ms] PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.0
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+[13209 ms] 
+[13210 ms] Start: Downloading VS Code Server
+[13210 ms] 585eba7c0c34fd6b30faac7c62a42050bfbc0086 linux-x64 stable
+[13212 ms] URL: https://update.code.visualstudio.com/commit:585eba7c0c34fd6b30faac7c62a42050bfbc0086/server-linux-x64/stable
+[13212 ms] Path: C:\Users\urpro\AppData\Local\Temp\vsch\serverCache\585eba7c0c34fd6b30faac7c62a42050bfbc0086\vscode-server-linux-x64.tar.gz
+[17604 ms] Start: Installing VS Code Server
+[17604 ms] Start: Run in host: mkdir -p /home/brutef0rce/.vscode-remote-containers/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632847747
+[17610 ms] 
+[17610 ms] 
+[17610 ms] Start: Run in host: (dd iflag=fullblock bs=8192 count=15085; dd iflag=fullblock bs=0 count=1) | tar --no-same-owner -x -C /home/brutef0rce/.vscode-remote-containers/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632847747
+[18147 ms] 15085+0 records in
+15085+0 records out
+123576320 bytes (124 MB, 118 MiB) copied, 0.531901 s, 232 MB/s
+[18149 ms] dd: invalid number: '0'
+[18150 ms] 
+[18150 ms] 
+[18151 ms] Start: Run in host: mv -n /home/brutef0rce/.vscode-remote-containers/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632847747/* /home/brutef0rce/.vscode-remote-containers/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086 && rmdir /home/brutef0rce/.vscode-remote-containers/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632847747
+[18157 ms] 
+[18158 ms] 
+[18159 ms] Start: Run in host: test -f '/home/brutef0rce/.vscode-remote-containers/dist/vscode-remote-containers-server-0.437.0.js'
+[18161 ms] 
+[18161 ms] 
+[18161 ms] Exit code 1
+[18161 ms] Start: Run in host: mkdir -p '/home/brutef0rce/.vscode-remote-containers/dist'
+[18165 ms] 
+[18165 ms] 
+[18165 ms] Start: Run in host: cat <<'EOF-/home/brutef0rce/.vscode-remote-containers/dist/vscode-remote-containers-server-0.437.0.js' >/home/brutef0rce/.vscode-remote-containers/dist/vscode-remote-containers-server-0.437.0.js_1768632848308
+[18170 ms] 
+[18170 ms] 
+[18172 ms] userEnvProbe: loginInteractiveShell (default)
+[18172 ms] userEnvProbe: not found in cache
+[18173 ms] userEnvProbe shell: /bin/bash
+[18257 ms] userEnvProbe PATHs:
+Probe:     '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Users/urpro/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/urpro/AppData/Local/Programs/Microsoft VS Code/bin'
+Container: None
+[18349 ms] Start: Check Docker is running
+[18350 ms] Start: Run: docker version
+[18397 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+
+[18397 ms] Client:        Podman Engine
+Version:       5.7.1
+API Version:   5.7.1
+Go Version:    go1.25.4 X:nodwarf5
+Git Commit:    f845d14e941889ba4c071f35233d09b29d363c75
+Built:         Tue Dec  9 19:00:00 2025
+Build Origin:  Fedora Project
+OS/Arch:       linux/amd64
+[18398 ms] Start: Run: docker volume ls -q
+[18471 ms] Start: Run: docker volume create vscode
+[18539 ms] Start: Run: docker ps -q -a --filter label=vsch.local.folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --filter label=vsch.quality=stable
+[18602 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --filter label=devcontainer.config_file=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json
+[18662 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer
+[18725 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer
+[18783 ms] Running Dev Containers CLI:   up --container-session-data-folder /tmp/devcontainers-4b143c6d-9734-4324-993d-c8585019fe4b1768632828953 --workspace-folder /home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --id-label devcontainer.config_file=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --terminal-columns 74 --terminal-rows 22 --include-configuration --include-merged-configuration
+[18783 ms] Start: Checking for Dev Containers CLI
+[18787 ms] Start: Run: /home/brutef0rce/.vscode-server/cli/servers/Stable-585eba7c0c34fd6b30faac7c62a42050bfbc0086/server/node /home/brutef0rce/.vscode-remote-containers/dist/dev-containers-cli-0.437.0/dist/spec-node/devContainersSpecCLI.js up --container-session-data-folder /tmp/devcontainers-4b143c6d-9734-4324-993d-c8585019fe4b1768632828953 --workspace-folder /home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --workspace-mount-consistency cached --gpu-availability detect --id-label devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --id-label devcontainer.config_file=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json --log-level debug --log-format json --config /home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json --default-user-env-probe loginInteractiveShell --mount type=volume,source=vscode,target=/vscode,external=true --skip-post-create --update-remote-user-uid-default on --mount-workspace-git-root --terminal-columns 74 --terminal-rows 22 --include-configuration --include-merged-configuration
+[11203 ms] @devcontainers/cli 0.80.1. Node.js v22.21.1. linux 6.17.12-300.fc43.x86_64 x64.
+[11203 ms] Start: Run: docker buildx version
+[11303 ms] buildah 1.42.2
+[11303 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+
+[11303 ms] Start: Run: docker -v
+[11333 ms] Start: Resolving Remote
+[11337 ms] Start: Run: git rev-parse --show-cdup
+[11477 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --filter label=devcontainer.config_file=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json
+[11535 ms] Start: Run: docker inspect --type image ubuntu:22.04
+[11609 ms] Start: Run: docker buildx build --load --build-arg BUILDKIT_INLINE_CACHE=1 -f /tmp/devcontainercli-brutef0rce/container-features/0.80.1-1768632841749/Dockerfile-with-features -t vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a --target dev_containers_target_stage --build-arg _DEV_CONTAINERS_BASE_IMAGE=dev_container_auto_added_stage_label /home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[1/2] STEP 1/2: FROM ubuntu:22.04 AS dev_container_auto_added_stage_label
+Resolved "ubuntu" as an alias (/etc/containers/registries.conf.d/000-shortnames.conf)
+Trying to pull docker.io/library/ubuntu:22.04...
+Getting image source signatures
+Copying blob 6f4ebca3e823 done   | 
+Copying config 65c77cbc27 done   | 
+Writing manifest to image destination
+[1/2] STEP 2/2: RUN apt-get update && apt-get install -y sudo     && useradd -m vscode     && echo "vscode ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:5 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+Get:7 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+Get:9 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3637 kB]
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3968 kB]
+Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [6411 kB]
+Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1600 kB]
+Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [69.2 kB]
+Get:14 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [37.2 kB]
+Get:15 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [83.9 kB]
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1289 kB]
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [60.9 kB]
+Get:18 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [6205 kB]
+Fetched 43.7 MB in 2s (18.5 MB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  sudo
+0 upgraded, 1 newly installed, 0 to remove and 1 not upgraded.
+Need to get 820 kB of archives.
+After this operation, 2568 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 sudo amd64 1.9.9-1ubuntu2.5 [820 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 820 kB in 1s (753 kB/s)
+Selecting previously unselected package sudo.
+(Reading database ... 4393 files and directories currently installed.)
+Preparing to unpack .../sudo_1.9.9-1ubuntu2.5_amd64.deb ...
+Unpacking sudo (1.9.9-1ubuntu2.5) ...
+Setting up sudo (1.9.9-1ubuntu2.5) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.11) ...
+--> 8bcd5ded786b
+[2/2] STEP 1/2: FROM 8bcd5ded786b33d0ddb2d9314457f6b3e8bfb84420ad54aa41bf7ec8392bf933 AS dev_containers_target_stage
+[2/2] STEP 2/2: LABEL devcontainer.metadata="{\"customizations\":{\"vscode\":{\"extensions\":[]}},\"remoteUser\":\"vscode\"}"
+[2/2] COMMIT vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a
+--> 717e1ea266c0
+[Warning] one or more build args were not consumed: [BUILDKIT_INLINE_CACHE]
+Successfully tagged localhost/vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a:latest
+717e1ea266c00f7f8f4f5e2f29c548db7f470349795bc9dcb51e19f82ee49207
+[24643 ms] Start: Run: docker inspect --type image vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a
+[24710 ms] Start: Run: docker build -f /tmp/devcontainercli-brutef0rce/updateUID.Dockerfile-0.80.1 -t vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a-uid --platform linux/amd64 --build-arg BASE_IMAGE=localhost/vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a --build-arg REMOTE_USER=vscode --build-arg NEW_UID=1000 --build-arg NEW_GID=1000 --build-arg IMAGE_USER=root /tmp/devcontainercli-brutef0rce/empty-folder
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+STEP 1/9: FROM localhost/vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a
+STEP 2/9: USER root
+--> f8689becf3d2
+STEP 3/9: ARG REMOTE_USER
+--> 84ff4ed44451
+STEP 4/9: ARG NEW_UID
+--> c549201a919a
+STEP 5/9: ARG NEW_GID
+--> 4dccf92a40b0
+STEP 6/9: SHELL ["/bin/sh", "-c"]
+WARN[0000] SHELL is not supported for OCI image format, [/bin/sh -c] will be ignored. Must use `docker` format 
+--> 5c772a334bff
+STEP 7/9: RUN eval $(sed -n "s/${REMOTE_USER}:[^:]*:\([^:]*\):\([^:]*\):[^:]*:\([^:]*\).*/OLD_UID=\1;OLD_GID=\2;HOME_FOLDER=\3/p" /etc/passwd);   eval $(sed -n "s/\([^:]*\):[^:]*:${NEW_UID}:.*/EXISTING_USER=\1/p" /etc/passwd);    eval $(sed -n "s/\([^:]*\):[^:]*:${NEW_GID}:.*/EXISTING_GROUP=\1/p" /etc/group);  if [ -z "$OLD_UID" ]; then              echo "Remote user not found in /etc/passwd ($REMOTE_USER).";      elif [ "$OLD_UID" = "$NEW_UID" -a "$OLD_GID" = "$NEW_GID" ]; then                 echo "UIDs and GIDs are the same ($NEW_UID:$NEW_GID).";   elif [ "$OLD_UID" != "$NEW_UID" -a -n "$EXISTING_USER" ]; then            echo "User with UID exists ($EXISTING_USER=$NEW_UID).";   else            if [ "$OLD_GID" != "$NEW_GID" -a -n "$EXISTING_GROUP" ]; then                     echo "Group with GID exists ($EXISTING_GROUP=$NEW_GID).";                         NEW_GID="$OLD_GID";               fi;             echo "Updating UID:GID from $OLD_UID:$OLD_GID to $NEW_UID:$NEW_GID.";             sed -i -e "s/\(${REMOTE_USER}:[^:]*:\)[^:]*:[^:]*/\1${NEW_UID}:${NEW_GID}/" /etc/passwd;          if [ "$OLD_GID" != "$NEW_GID" ]; then                     sed -i -e "s/\([^:]*:[^:]*:\)${OLD_GID}:/\1${NEW_GID}:/" /etc/group;              fi;             chown -R $NEW_UID:$NEW_GID $HOME_FOLDER;  fi;
+UIDs and GIDs are the same (1000:1000).
+WARN[0000] SHELL is not supported for OCI image format, [/bin/sh -c] will be ignored. Must use `docker` format 
+--> 257b17abc687
+STEP 8/9: ARG IMAGE_USER
+WARN[0000] SHELL is not supported for OCI image format, [/bin/sh -c] will be ignored. Must use `docker` format 
+--> 030146ee9621
+STEP 9/9: USER $IMAGE_USER
+COMMIT vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a-uid
+WARN[0000] SHELL is not supported for OCI image format, [/bin/sh -c] will be ignored. Must use `docker` format 
+--> 81f4e8630494
+Successfully tagged localhost/vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a-uid:latest
+81f4e8630494f3745088f3b7ad8235d589329a50852a3af93376a2125eb94ecf
+[25501 ms] Start: Run: docker events --format json --filter event=start
+[25505 ms] Start: Starting container
+[25505 ms] Start: Run: docker run --sig-proxy=false -a STDOUT -a STDERR --mount type=bind,source=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop,target=/workspaces/develop --mount type=volume,src=vscode,dst=/vscode -l devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer -l devcontainer.config_file=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json --security-opt label=disable --userns=keep-id --entrypoint /bin/sh vsc-hello-devcontainer-5a4962f78ea84382479c8d0a2f0fc5055ebd20c286fe8f7e736867535ab9914a-uid -c echo Container started
+Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+Container started
+[32126 ms] Start: Run: docker inspect --type container fb2ed88cc23d3d06e21127257fbc033fc032576ed485347b136dee35c6995edb
+[32203 ms] Start: Run: docker ps -q -a --filter label=devcontainer.local_folder=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer --filter label=devcontainer.config_file=/home/brutef0rce/work/scm/github/r-thor/super-duper-octo-lamp/develop/hello-devcontainer/.devcontainer/devcontainer.json
+[32208 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+
+[32268 ms] Start: Run: docker inspect --type container fb2ed88cc23d
+[32338 ms] Start: Inspecting container
+[32338 ms] Start: Run: docker inspect --type container fb2ed88cc23d3d06e21127257fbc033fc032576ed485347b136dee35c6995edb
+[32412 ms] Start: Run in container: /bin/sh
+[32416 ms] Start: Run in container: uname -m
+[32556 ms] x86_64
+[32556 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[32556 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[32560 ms] PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+[32560 ms] 
+[32561 ms] Start: Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'vscode' || grep -E '^vscode|^[^:]*:[^:]*:vscode:' /etc/passwd || true)
+[32565 ms] Start: Run in container: [ ! -e '/root' ] || [ -w '/root' ]
+[32567 ms] 
+[32567 ms] 
+[32567 ms] Exit code 1
+[32567 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcEnvironmentMarker'
+[32569 ms] 
+[32569 ms] 
+[32569 ms] Exit code 1
+[32570 ms] Start: Run in container: /bin/sh
+[32574 ms] Start: Run in container: test ! -f '/var/devcontainer/.patchEtcEnvironmentMarker' && set -o noclobber && mkdir -p '/var/devcontainer' && { > '/var/devcontainer/.patchEtcEnvironmentMarker' ; } 2> /dev/null
+[32738 ms] 
+[32738 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[32738 ms] Start: Run in container: cat >> /etc/environment <<'etcEnvironmentEOF'
+[32764 ms] 
+[32764 ms] 
+[32764 ms] Start: Run in container: test -f '/var/devcontainer/.patchEtcProfileMarker'
+[32765 ms] 
+[32765 ms] 
+[32765 ms] Exit code 1
+[32766 ms] Start: Run in container: test ! -f '/var/devcontainer/.patchEtcProfileMarker' && set -o noclobber && mkdir -p '/var/devcontainer' && { > '/var/devcontainer/.patchEtcProfileMarker' ; } 2> /dev/null
+[32769 ms] 
+[32769 ms] 
+[32770 ms] Start: Run in container: sed -i -E 's/((^|\s)PATH=)([^\$]*)$/\1${PATH:-\3}/g' /etc/profile || true
+[32775 ms] 
+[32776 ms] 
+[40500 ms] Start: Run: docker inspect --type container fb2ed88cc23d3d06e21127257fbc033fc032576ed485347b136dee35c6995edb
+[40580 ms] Start: Run: docker exec -i -u root fb2ed88cc23d3d06e21127257fbc033fc032576ed485347b136dee35c6995edb /bin/sh -c echo "New container started. Keep-alive process started." ; export VSCODE_REMOTE_CONTAINERS_SESSION=4b143c6d-9734-4324-993d-c8585019fe4b1768632828953 ; /bin/sh
+[40581 ms] Start: Inspecting container
+[40581 ms] Start: Run: docker inspect --type container fb2ed88cc23d3d06e21127257fbc033fc032576ed485347b136dee35c6995edb
+[40627 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+
+[40670 ms] Start: Run in container: /bin/sh
+[40676 ms] Start: Run in container: uname -m
+[40718 ms] New container started. Keep-alive process started.
+[40781 ms] x86_64
+[40781 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[40781 ms] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[40825 ms] PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+[40826 ms] 
+[40826 ms] Start: Run in container:  (command -v getent >/dev/null 2>&1 && getent passwd 'vscode' || grep -E '^vscode|^[^:]*:[^:]*:vscode:' /etc/passwd || true)
+[40871 ms] Start: Run in container: [ ! -e '/root' ] || [ -w '/root' ]
+[40915 ms] 
+[40915 ms] 
+[40915 ms] Exit code 1
+[40916 ms] safe.directory: Looking up root folder for workspace folder '/workspaces/develop/hello-devcontainer'.
+[40916 ms] Start: Run in container: command -v git >/dev/null 2>&1 && ROOT_FOLDER="$(git -C '/workspaces/develop/hello-devcontainer' rev-parse --show-toplevel)" && test "$(stat -c %u "$ROOT_FOLDER")" != "$(id -u)" && echo -n "$ROOT_FOLDER"
+[40960 ms] 
+[40960 ms] 
+[40960 ms] Exit code 127
+[40960 ms] safe.directory: Checking host ownership of root folder at mount point '/workspaces/develop' skipped.
+[40961 ms] Start: Updating configuration state
+[41005 ms] Start: Setup shutdown monitor
+[41006 ms] Forking shutdown monitor: c:\Users\urpro\.vscode\extensions\ms-vscode-remote.remote-containers-0.437.0\dist\shutdown\shutdownMonitorProcess \\.\pipe\vscode-remote-containers-22270f2a-c07a-4434-90da-3b2f4df9ca6e-sock singleContainer Debug c:\Users\urpro\AppData\Roaming\Code\logs\20260116T233430\window6\exthost\ms-vscode-remote.remote-containers 1768632830143
+[41023 ms] Start: Run in container: test -d '/home/vscode/.vscode-server'
+[41067 ms] 
+[41067 ms] 
+[41068 ms] Exit code 1
+[41068 ms] Start: Run in container: test -d '/home/vscode/.vscode-remote'
+[41112 ms] 
+[41112 ms] 
+[41112 ms] Exit code 1
+[41112 ms] Start: Run in container: test ! -f '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/vscode/.vscode-server/data/Machine' && { > '/home/vscode/.vscode-server/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[41156 ms] 
+[41156 ms] 
+[41156 ms] Start: Run in container: test -f '/home/vscode/.vscode-server/data/Machine/settings.json'
+[41200 ms] 
+[41200 ms] 
+[41200 ms] Exit code 1
+[41201 ms] Start: Run in container: which apt dpkg snap dnf yum rpm apk docker git gh kubectl podman curl wget ssh scp rsync gpg ps lsof netstat top tree find grep zip unzip tar gzip bzip2 xz || true
+[41245 ms] Start: Run in container: mkdir -p '/home/vscode/.vscode-server/data/Machine' && cat >'/home/vscode/.vscode-server/data/Machine/settings.json' <<'settingsJSON'
+[41288 ms] 
+[41289 ms] 
+[41289 ms] Start: Run in container: test ! -f '/home/vscode/.vscode-server/data/Machine/.writeMachineMCPConfigMarker' && set -o noclobber && mkdir -p '/home/vscode/.vscode-server/data/Machine' && { > '/home/vscode/.vscode-server/data/Machine/.writeMachineMCPConfigMarker' ; } 2> /dev/null
+[41333 ms] 
+[41333 ms] 
+[41333 ms] Start: Run in container: test -f '/home/vscode/.vscode-server/data/User/mcp.json'
+[41377 ms] 
+[41377 ms] 
+[41377 ms] Exit code 1
+[41377 ms] Start: Run in container: test -d '/home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086'
+[41422 ms] 
+[41422 ms] 
+[41422 ms] Exit code 1
+[41422 ms] Start: Run in container: test -d '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086'
+[41466 ms] 
+[41467 ms] 
+[41467 ms] Exit code 1
+[41467 ms] Installing VS Code Server for commit 585eba7c0c34fd6b30faac7c62a42050bfbc0086
+[41467 ms] Start: Run in container: /bin/sh
+[41473 ms] Start: Installing VS Code Server
+[41473 ms] Start: Run in container: mkdir -p /vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632871616
+[41609 ms] 
+[41610 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[41690 ms] Start: Run in container: (dd iflag=fullblock bs=8192 count=9067; dd iflag=fullblock bs=4184 count=1) | tar --no-same-owner -xz -C /vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632871616
+[46828 ms] 9067+0 records in
+9067+0 records out
+74276864 bytes (74 MB, 71 MiB) copied, 5.12532 s, 14.5 MB/s
+1+0 records in
+1+0 records out
+4184 bytes (4.2 kB, 4.1 KiB) copied, 5.6205e-05 s, 74.4 MB/s
+[46831 ms] 
+[46831 ms] 
+[46831 ms] Start: Run in container: mv -n /vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632871616/* /vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086 && rmdir /vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086_1768632871616
+[46875 ms] 
+[46875 ms] 
+[46875 ms] Start: Run in container: mkdir -p '/home/vscode/.vscode-server/bin' && ln -snf '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086' '/home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086'
+[46919 ms] 
+[46919 ms] 
+[46919 ms] Start: Run in container: touch '/vscode/vscode-server/bin/linux-x64/585eba7c0c34fd6b30faac7c62a42050bfbc0086' && cd '/vscode/vscode-server/bin/linux-x64' && ls -td *[^_]????????????? | tail -n +10 | xargs rm -rf
+[46919 ms] Start: Run in container: test -x '/home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/helpers/check-requirements.sh'
+[46963 ms] 
+[46963 ms] 
+[46963 ms] 
+[46963 ms] 
+[46963 ms] Start: Run in container: '/home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/helpers/check-requirements.sh'
+[47028 ms] 
+[47028 ms] 
+[47029 ms] Start: Launching Dev Containers helper.
+[47029 ms] ssh-agent: SSH_AUTH_SOCK not set on remote host.
+[47030 ms] ssh-agent: SSH_AUTH_SOCK not set on local host.
+[47030 ms] ssh-agent: SSH_AUTH_SOCK not set on wsl host.
+[47030 ms] X11 forwarding: DISPLAY not set on remote host.
+[47031 ms] X11 forwarding: DISPLAY not set on local host.
+[47031 ms] Start: Run in container: test -e /tmp/.X11-unix/X0
+[47073 ms] 
+[47074 ms] 
+[47074 ms] Exit code 1
+[47074 ms] Start: Run in container: mkdir -p '/tmp/.X11-unix'
+[47118 ms] 
+[47118 ms] 
+[47118 ms] X11 forwarding: DISPLAY in container (:0) forwarded to wsl host (:0).
+[47119 ms] Start: Run in container: gpgconf --list-dirs
+[47162 ms] 
+[47163 ms] /bin/sh: 30: gpgconf: not found
+[47163 ms] Exit code 127
+[47163 ms] gpg-agent: No agent-socket found in container.
+[47163 ms] Start: Run in container: (command -v 'docker' || command -v 'oras' || command -v 'skopeo') >/dev/null 2>&1
+[47207 ms] 
+[47207 ms] 
+[47208 ms] Exit code 127
+[47208 ms] Start: Run in container: /bin/sh
+[47209 ms] userEnvProbe: loginInteractiveShell (default)
+[47209 ms] Start: Run in container: test -f '/tmp/devcontainers-4b143c6d-9734-4324-993d-c8585019fe4b1768632828953/env-loginInteractiveShell.json'
+[47213 ms] 
+[47213 ms] 
+[47213 ms] Exit code 1
+[47214 ms] userEnvProbe: not found in cache
+[47214 ms] userEnvProbe shell: /bin/sh
+[47215 ms] Start: Run in container: # Test for /home/vscode/.ssh/known_hosts and ssh
+[47217 ms] Start: Run in container: echo ~
+[47220 ms] ssh not found
+[47220 ms] 
+[47220 ms] Exit code 1
+[47220 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --system --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node /tmp/vscode-remote-containers-5103be5a-535d-4cd4-98c1-fa31548c8792.js git-credential-helper $*; }; f' || true
+[47263 ms] 
+[47263 ms] 
+[47264 ms] Start: Run in container: for pid in `cd /proc && ls -d [0-9]*`; do { echo $pid ; readlink /proc/$pid/cwd || echo ; readlink /proc/$pid/ns/mnt || echo ; cat /proc/$pid/stat | tr "
+[47315 ms] Start: Run in container: cat '/home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/product.json'
+[47321 ms] Start: Run in container: cat '/home/vscode/.vscode-server/data/Machine/.connection-token-585eba7c0c34fd6b30faac7c62a42050bfbc0086' 2>/dev/null || (umask 377 && echo '8b196705-98cb-40e4-8b31-4b63be89241e' >'/home/vscode/.vscode-server/data/Machine/.connection-token-585eba7c0c34fd6b30faac7c62a42050bfbc0086-44987042-b88c-4904-8bfb-6f6225357e9e' && mv -n '/home/vscode/.vscode-server/data/Machine/.connection-token-585eba7c0c34fd6b30faac7c62a42050bfbc0086-44987042-b88c-4904-8bfb-6f6225357e9e' '/home/vscode/.vscode-server/data/Machine/.connection-token-585eba7c0c34fd6b30faac7c62a42050bfbc0086' && rm -f '/home/vscode/.vscode-server/data/Machine/.connection-token-585eba7c0c34fd6b30faac7c62a42050bfbc0086-44987042-b88c-4904-8bfb-6f6225357e9e' && cat '/home/vscode/.vscode-server/data/Machine/.connection-token-585eba7c0c34fd6b30faac7c62a42050bfbc0086')
+[47364 ms] 8b196705-98cb-40e4-8b31-4b63be89241e
+[47364 ms] 
+[47365 ms] Start: Starting VS Code Server
+[47366 ms] Start: Preparing Extensions
+[47366 ms] Start: Run in container: test ! -f '/home/vscode/.vscode-server/data/Machine/.installExtensionsMarker' && set -o noclobber && mkdir -p '/home/vscode/.vscode-server/data/Machine' && { > '/home/vscode/.vscode-server/data/Machine/.installExtensionsMarker' ; } 2> /dev/null
+[47366 ms] /home/vscode
+[47366 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[47366 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-5103be5a-535d-4cd4-98c1-fa31548c8792.js' >/tmp/vscode-remote-containers-5103be5a-535d-4cd4-98c1-fa31548c8792.js
+[47410 ms] 
+[47410 ms] 
+[47410 ms] 
+[47410 ms] 
+[47411 ms] Start: Run in container: cat <<'EOF-/tmp/vscode-remote-containers-server-5103be5a-535d-4cd4-98c1-fa31548c8792.js' >/tmp/vscode-remote-containers-server-5103be5a-535d-4cd4-98c1-fa31548c8792.js_1768632877553
+[47413 ms] Extensions cache, install extensions: None
+[47413 ms] Start: Run in container: test -d /home/vscode/.vscode-server/extensionsCache && ls /home/vscode/.vscode-server/extensionsCache || true
+[47457 ms] 
+[47457 ms] 
+[47458 ms] 
+[47458 ms] 
+[47458 ms] Start: Run in container: test -d /vscode/vscode-server/extensionsCache && ls /vscode/vscode-server/extensionsCache || true
+[47465 ms] 
+[47465 ms] 
+[47466 ms] Extensions cache, link in container: None
+[47466 ms] Optimizing extensions for quality: stable
+[47467 ms] Start: Run in container: /home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/code-server --log debug --force-disable-user-env --server-data-dir /home/vscode/.vscode-server --telemetry-level all --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/vscode/.vscode-server/data/Machine/.connection-token-585eba7c0c34fd6b30faac7c62a42050bfbc0086 --extensions-download-dir /home/vscode/.vscode-server/extensionsCache --start-server  --skip-requirements-check
+[47514 ms] Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[47606 ms] userEnvProbe PATHs:
+Probe:     '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+Container: '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+[47606 ms] Start: Run in container: mkdir -p '/tmp/devcontainers-4b143c6d-9734-4324-993d-c8585019fe4b1768632828953' && cat > '/tmp/devcontainers-4b143c6d-9734-4324-993d-c8585019fe4b1768632828953/env-loginInteractiveShell.json' << 'envJSON'
+[47650 ms] 
+[47650 ms] 
+[47704 ms] *
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+[47710 ms] Server bound to 127.0.0.1:37187 (IPv4)
+Extension host agent listening on 37187
+
+[47710 ms] Start: Run in container: echo 37187 >'/home/vscode/.vscode-server/data/Machine/.devport-585eba7c0c34fd6b30faac7c62a42050bfbc0086'
+[47755 ms] 
+[47755 ms] 
+[47756 ms] Port forwarding for container port 37187 starts listening on local port.
+[47757 ms] Port forwarding local port 37187 to container port 37187
+[47766 ms] Initializing configuration support...
+[47766 ms] Internal initialization of dev container support package...
+[47770 ms] Ignoring option 'skip-requirements-check': not supported for server.
+[47771 ms] [06:54:30] 
+
+
+
+
+[47775 ms] Port forwarding connection from 64992 > 37187 > 37187 in the container.
+[47775 ms] Start: Run in container: /home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node -e 
+[47778 ms] Start: Run in container: # Test for /home/vscode/.gitconfig and git
+[47822 ms] git not found
+[47823 ms] 
+[47823 ms] Exit code 1
+[47824 ms] Port forwarding 64992 > 37187 > 37187 stderr: Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[47829 ms] Start: Run in container: command -v git >/dev/null 2>&1 && git config --global --replace-all credential.helper '!f() { /home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node /tmp/vscode-remote-containers-5103be5a-535d-4cd4-98c1-fa31548c8792.js git-credential-helper $*; }; f' || true
+[47872 ms] 
+[47873 ms] 
+[47873 ms] [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[47873 ms] [06:54:30] Extension host agent started.
+[47898 ms] [06:54:30] No extensions are marked as removed.
+[47899 ms] [06:54:30] Started initializing default profile extensions in extensions installation folder. file:///home/vscode/.vscode-server/extensions
+[47905 ms] [06:54:30] ComputeTargetPlatform: linux-x64
+[47934 ms] [06:54:30] Completed initializing default profile extensions in extensions installation folder. file:///home/vscode/.vscode-server/extensions
+[48047 ms] Port forwarding 64992 > 37187 > 37187 stderr: Connection established
+[48064 ms] Port forwarding connection from 56336 > 37187 > 37187 in the container.
+[48064 ms] Start: Run in container: /home/vscode/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node -e 
+[48074 ms] [06:54:30] [127.0.0.1][27141a47][ManagementConnection] New connection established.
+[48116 ms] Port forwarding 56336 > 37187 > 37187 stderr: Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.
+[48143 ms] [06:54:30] Log level changed to info
+[48275 ms] Port forwarding 56336 > 37187 > 37187 stderr: Connection established
+[48479 ms] [06:54:30] [127.0.0.1][21f7e61b][ExtensionHostConnection] New connection established.
+[48480 ms] [06:54:30] [127.0.0.1][21f7e61b][ExtensionHostConnection] <309> Launched Extension Host Process.
+[48774 ms] [06:54:31] [127.0.0.1][21f7e61b][ExtensionHostConnection] <309> [reconnection-grace-time] Extension host: read VSCODE_RECONNECTION_GRACE_TIME=10800000ms (10800s)
