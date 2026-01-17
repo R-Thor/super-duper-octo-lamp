@@ -1,0 +1,61 @@
+# -------------------------
+# Python cache / artifacts
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Virtual environments
+# (even though you use devcontainers,
+# this prevents accidental host venvs)
+# -------------------------
+venv/
+.env/
+.venv/
+
+# -------------------------
+# Jupyter notebook junk
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# VS Code workspace junk
+# (your profiles live outside the repo)
+# -------------------------
+.vscode/
+*.code-workspace
+
+# -------------------------
+# Devcontainer build artifacts
+# (the config stays, but build output does not)
+# -------------------------
+.devcontainer/.venv/
+.devcontainer/Dockerfile.deps
+.devcontainer/local-history/
+
+# -------------------------
+# OS-specific junk
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Tooling output
+# -------------------------
+dist/
+build/
+*.egg-info/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Python tooling caches
+# -------------------------
+.mypy_cache/
+.pytest_cache/
+.cache/
