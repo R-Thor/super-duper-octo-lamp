@@ -3,7 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-
   // Ensures VS Code installs Java UI extensions inside the container too
   "customizations": {
     "vscode": {
@@ -12,14 +11,7 @@
       ]
     }
   },
-
   // Use the vscode user for correct permissions
   "remoteUser": "vscode",
-
-  // Optional but recommended for Java projects
-  "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "21"
-    }
-  }
+  "updateRemoteUserUID": true
 }
