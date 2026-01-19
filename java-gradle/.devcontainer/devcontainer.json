@@ -1,17 +1,19 @@
 {
-  "name": "Java-Gradle",
+  "name": "Java Gradle",
   "build": {
     "dockerfile": "Dockerfile"
   },
-  // Ensures VS Code installs Java UI extensions inside the container too
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true,
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "customizations": {
     "vscode": {
       "extensions": [
-        "vscjava.vscode-java-pack"
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "vscjava.vscode-gradle"
       ]
     }
-  },
-  // Use the vscode user for correct permissions
-  "remoteUser": "vscode",
-  "updateRemoteUserUID": true
+  }
 }
+
