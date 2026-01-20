@@ -1,12 +1,9 @@
 {
   "name": "ubuntu-manual",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "containerUser": "vscode",
   "remoteUser": "vscode",
-  "customizations": {
-    "vscode": {
-      "extensions": []
-    }
-  }
+  "updateRemoteUserUID": true,
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 }
